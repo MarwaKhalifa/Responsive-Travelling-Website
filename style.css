@@ -133,7 +133,8 @@ header {
   border-radius: 10px;
   width: 1240px;
   max-width: 100%;
-  height: 500px;
+  min-height: 500px;
+  height: auto;
   gap: 20px;
   position: relative;
   .overlay {
@@ -161,7 +162,6 @@ header {
   @media screen and (max-width: 767px) {
     background-size: contain;
     background-position: top left;
-    max-width: 767px;
   }
 
   h1 {
